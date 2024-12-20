@@ -44,7 +44,7 @@ img, svg {
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
-  margin-left: -90px;
+  /* margin-left: -90px; */
 }
 .form-control {
   display: block;
@@ -72,7 +72,7 @@ img, svg {
   background: 0 0;
   border: 0;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 .d-flex input {
   text-align: center;
@@ -80,5 +80,18 @@ img, svg {
 }
 .col {
   flex: 1 0;
-  margin-left: 22px;
+  margin-left: 20px;
+
 }
+/* .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  display: block;
+}
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  backface-visibility: hidden;
+  transition: transform .6s ease-in-out;
+} */
